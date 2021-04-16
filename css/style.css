@@ -11,7 +11,7 @@
 .header{
   min-height: 100vh;
   width: 100%;
-  background-color: aqua;
+  background-color: azure;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -58,7 +58,7 @@ nav a{
 }
 .text-box{
   width: 90%;
-  color: #fff;
+  color: #111;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,13 +71,13 @@ nav a{
 .text-box p{
   margin: 10px 0 40px;
   font-size: 14px;
-  color: #fff;  
+  color: #111;  
 }
 .hero-btn{
   display: inline-block;
   text-decoration: none;
-  color: #fff;
-  border:1px solid #fff;
+  color: #111;
+  border:1px solid #111;
   padding: 12px 34px;
   font-size: 13px;
   background:transparent;
@@ -85,8 +85,8 @@ nav a{
   cursor: pointer;
 }
 .hero-btn:hover{
-  border:1px solid darkblue;
-  background:lightblue;
+  border:1px solid white;
+  background:green;
   transition: 1s;
 }
 body {
