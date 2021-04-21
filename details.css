@@ -158,6 +158,194 @@ h1{
 	font-size: 36px;
 	font-weight: 600;
 }
+.body1{
+	background-color:azure;
+}
+.containeer{
+	width: 80%;
+	padding: 100px;
+
+}
+.containeer h2{
+	width: 100%;
+	color:#111;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 10px;
+
+
+}
+.containner .row100{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.containeer .row100 .col{
+	position: relative;
+	width: 100%;
+	padding: 0 10px;
+	margin:  30px 0 10px;
+	transition: 0.5s;
+
+}
+.containeer .row100 .inputbox{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	color: #111;
+
+
+}
+.containeer .row100 .inputbox input,
+.containeer .row100 .inputbox.textarea textarea{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding: 0 10px;
+	z-index: 1;
+	color: #fff;
+
+
+}
+.containeer .row100 .inputbox .text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 40px;
+	font-size: 18px;
+	padding: 0 10px;
+	display: block;
+	transition: 0.5s;
+	pointer-events: none;
+
+}
+.containeer .row100 .inputbox input:focus + .text,
+.containeer .row100 .inputbox input:valid + .text{
+	top:-35px;
+	left: -10px;
+
+}
+.containeer .row100 .inputbox .line{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #111;
+	transition: 0.5s;
+	border-radius: 2px;
+	pointer-events: none;
+
+}
+.containeer .row100 .inputbox input:focus ~ .line,
+.containeer .row100 .inputbox input:valid ~ .line{
+	height: 100%;
+
+}
+.containeer .row100 .inputbox.textarea{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	padding: 10px 0;
+}
+.containeer .row100 .inputbox.textarea textarea{
+	height: 100%;
+	resize: none;
+
+}
+.containeer .row100 .inputbox textarea:focus + .text,
+.containeer .row100 .inputbox textarea:valid + .text{
+	top:-35px;
+	left: -10px;f
+
+}
+.containeer .row100 .inputbox textarea:focus ~ .line,
+.containeer .row100 .inputbox textarea:valid ~ .line{
+	height: 100%;
+
+}
+input[type="submit"]{
+	border: none;
+	padding: 7px 35px;
+	cursor: pointer;
+	outline: none;
+	background: white;
+	color: #000;
+	font-size: 18px;
+	border-radius: 2px;
+
+}
+
+footer{
+	margin-top: 9%;
+	background:#111;
+	height: auto;
+	width: 100vw;
+	padding-top: 40px;
+	color: #fff;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 3rem;
+}
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials li{
+	margin: 0 10px;
+}
+.socials a{
+	text-decoration: none;
+	color: #fff;
+}
+.socials a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+
+.socials a:hover i{
+	color: #f44336;
+}
+
+.footer-bottom{
+	background:#000;
+	width: 120vh;
+	text-align: center;
+}
+
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform:capitalize;
+	margin-left:600px;
+}
+
+
+
 /*.button {
   background-color: #4CAF50;
   border: none;
