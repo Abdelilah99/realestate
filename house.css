@@ -19,7 +19,7 @@ nav{
 }
 nav h1{
 	width: 150px;
-	color:azure;
+	color:#111;
 }
 nav a{
 	text-decoration: none;
@@ -35,7 +35,7 @@ nav a{
 	position: relative;
 }
 .nav-links ul li a{
-	color: #fff;
+	color: #111;
 	text-decoration: none;
 	font-size: 16px;
 }
@@ -65,8 +65,8 @@ nav a{
 }
 .text-box p{
 	margin: 10px 0 40px;
-	font-size: 14px;
-	color: #fff;	
+	font-size: 18px;
+	color: #111;	
 }
 .hero-btn{
 	display: inline-block;
