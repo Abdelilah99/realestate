@@ -125,7 +125,9 @@ td, th {
 	text-align: center;
 }
 .text-box h1{
-	font-size: 63px;
+	font-size: 48px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .text-box p{
 	margin: 10px 0 40px;

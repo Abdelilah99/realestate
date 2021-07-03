@@ -66,7 +66,8 @@ nav a{
 .text-box p{
 	margin: 10px 0 40px;
 	font-size: 18px;
-	color: #111;	
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
 }
 .hero-btn{
 	display: inline-block;
@@ -167,6 +168,10 @@ h3{
 	background-size: cover;
 	position: relative;
 }
+.main-opinion p{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 .text1-box{
 	width: 90%;
 	color: #fff;
@@ -255,5 +260,5 @@ footer{
 	font-size: 14px;
 	word-spacing: 2px;
 	text-transform:capitalize;
-	margin-left:600px;
+	margin-left:570px;
 }

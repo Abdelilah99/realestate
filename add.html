@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>add</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+	rel="stylesheet" 
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+	crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="add.css">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+	integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+	crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+	integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+	crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<section class="header">
+  <nav>
+  <a href="file:///C:/Users/Abdou/OneDrive/Bureau/house/realestate/house.html"><h1>FesRent.ma</h1></a>
+  <div class="nav-links">
+  <ul>
+    <li><a href="file:///C:/Users/Abdou/OneDrive/Bureau/house/realestate/house.html">Acceuil</a></li>
+    <li><a href="file:///C:/Users/Abdou/OneDrive/Bureau/house/realestate/buy.html">Acheter</a></li>
+    <li><a href="file:///C:/Users/Abdou/OneDrive/Bureau/house/realestate/rent.html">Louer</a></li>
+    <li><a href="file:///C:/Users/Abdou/OneDrive/Bureau/house/realestate/add.html">Ajouter</a></li>
+    
+  </ul>
+  </div>
+  </nav>
+  <div class="text-box">
+    <h1>FesRent.ma</h1>
+    <p>Est la seule site-web ou vous pouvez louer ou acheter ou ajouter un maison</p>
+    <a href="file:///C:/Users/Abdou/OneDrive/Bureau/house/realestate/add.html"class="hero-btn">Ajouter des maison</a>
+  </div>
+</section>
+<br>
+<center><h2>remplire les information suivantes</h2></center>
+<br>
+<section class="add">
+
+	<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Nom</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">prénom</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Numero ID</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Région</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choisir</option>
+      <option>El-marinyine</option>
+      <option>jnane el-ouard</option>
+      <option>Zouagha</option>
+      <option>Saiss</option>
+      <option>El-medina</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+
+  <div class="col-12">
+    <br>
+ <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    A louer
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    A vendre
+  </label>
+</div>
+<br>
+
+<div class="mb-3">
+            <label for="formFile" class="form-label">Choisis des images</label>
+            <input class="form-control" type="file" id="formFile"multiple>
+</div>
+
+
+  </div>
+  <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Ecrire un message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+  <div class="col-12">
+    <center><button type="submit" class="btn btn-primary">Sign in</button></center>
+  </div>
+</form>
+
+</section>
+<footer>
+  <div class="footer-content">
+    <h3>FesRent.ma</h3>
+    <p>FesRent.ma est la première siteweb regional.</p>
+    <ul class="socials">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      <li><a href=""><i class="fab fa-google"></i></a></li>
+      <li><a href=""><i class="fab fa-twitter"></i></a></li>
+      <li><a href=""><i class="fab fa-likdein-in"></i></a></li>
+    </ul>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>copyright</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
