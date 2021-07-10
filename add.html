@@ -42,53 +42,53 @@
 <br>
 <section class="add">
 
-	<form class="row g-3">
+	<form class="row g-3"action="addphp.php"method="post">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Nom</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <input type="email" class="form-control" id="inputEmail4"name="nom">
   </div>
   <div class="col-md-6">
     <label for="inputPassword4" class="form-label">prénom</label>
-    <input type="password" class="form-control" id="inputPassword4">
+    <input type="password" class="form-control" id="inputPassword4"name="prenom">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"name="adress">
   </div>
   <div class="col-12">
     <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"name="adresss">
   </div>
   <div class="col-md-6">
     <label for="inputCity" class="form-label">Numero ID</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" id="inputCity"name="id">
   </div>
   <div class="col-md-4">
     <label for="inputState" class="form-label">Région</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choisir</option>
-      <option>El-marinyine</option>
-      <option>jnane el-ouard</option>
-      <option>Zouagha</option>
-      <option>Saiss</option>
-      <option>El-medina</option>
+    <select id="inputState" class="form-select"name="states">
+      <option selected value="">Choisir</option>
+      <option value="marinyin">El-marinyine</option>
+      <option value="jnane">jnane el-ouard</option>
+      <option value="zouagha">Zouagha</option>
+      <option value="saiss">Saiss</option>
+      <option value="elmedina">El-medina</option>
     </select>
   </div>
   <div class="col-md-2">
     <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
+    <input type="text" class="form-control"name="zip" id="inputZip">
   </div>
 
   <div class="col-12">
     <br>
  <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <input class="form-check-input" type="radio" name="cases"value="a" id="flexRadioDefault1">
   <label class="form-check-label" for="flexRadioDefault1">
     A louer
   </label>
 </div>
 <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <input class="form-check-input" type="radio" name="cases"value="l" id="flexRadioDefault2" checked>
   <label class="form-check-label" for="flexRadioDefault2">
     A vendre
   </label>
@@ -97,17 +97,17 @@
 
 <div class="mb-3">
             <label for="formFile" class="form-label">Choisis des images</label>
-            <input class="form-control" type="file" id="formFile"multiple>
+            <input class="form-control" type="file" name="files"id="formFile"multiple>
 </div>
 
 
   </div>
   <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Ecrire un message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <textarea class="form-control" name="message"id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
   <div class="col-12">
-    <center><button type="submit" class="btn btn-primary">Sign in</button></center>
+    <center><button type="submit" class="btn btn-primary"name="save">Sign in</button></center>
   </div>
 </form>
 
